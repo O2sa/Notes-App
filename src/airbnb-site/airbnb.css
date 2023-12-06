@@ -1,0 +1,96 @@
+.airbnb {
+  color: black;
+  margin: 0 !important;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: #E5E5E5;
+}
+header {
+  height: 70px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ffffff;
+}
+header img {
+  width: 82px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.container {
+  margin: 100px 30px;
+}
+.img-gride {
+  margin: auto;
+}
+.img-gride {
+  text-align: center;
+}
+.img-gride img {
+  height: 232px;
+  width: 395px;
+}
+@media only screen and (max-width: 600px) {
+  .img-gride img {
+    max-width: 300px;
+  }
+}
+
+.exp {
+  margin: 40px 0;
+}
+.exp h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.exp p {
+  font-size: 18px;
+  width: 320px;
+}
+.exps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.exps .card {
+  height: 300px;
+  width: 176px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.exps .card-img {
+  position: relative;
+}
+.exps .card-img .exp-img {
+  width: 176px;
+  height: 235px;
+}
+.exps .card-img span {
+  position: absolute;
+  left: 5px;
+  background-color: #ffffff;
+  top: 5px;
+  padding: 5px;
+  width: 60px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+.desc {
+  font-size: 12px;
+  height: 58px;
+}
+.desc .img {
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+.desc span .rate {
+  color: #918e9b;
+}

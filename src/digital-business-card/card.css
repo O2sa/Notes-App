@@ -1,0 +1,95 @@
+.card {
+  width: 550px;
+  height: 888px;
+  background-color: #23252c;
+  margin: auto;
+  /* margin-left: 50px; */
+  margin-top: 65px;
+}
+.card-leave {
+  width: 317px;
+  height: 780px;
+  position: absolute;
+  margin-top: 44px;
+  margin-left: 120px;
+  background-color: #1a1b21;
+}
+.card-leave .profile img {
+  width: 317px;
+  height: 317px;
+  border-radius: 5px 5px 0px 0px;
+}
+.card-leave .info {
+    text-align: center;
+
+}
+.card-leave .info h3 {
+  font-size: 25px;
+  margin: 20px auto 5px;
+}
+.card-leave .info .job {
+  display: block;
+  margin-bottom: 10px;
+  color: #f3bf99;
+  font-size: 12.5px;
+}
+.card-leave .info .website {
+  margin-bottom: 5px;
+  display: block;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 10.5px;
+}
+.card-leave .contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.card-leave .contact .email-btn {
+    width: 115px;
+    height: 34px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    
+}
+.card-leave .contact  i {
+    margin-right: 5px;
+}
+.card-leave .contact .linkdln-btn {
+    width: 115px;
+    height: 34px;
+    font-size: 14px;
+    background-color: #5093E2;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.card-leave .details {
+    margin: 20px 30px;
+}
+.card-leave .details h4{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #F5F5F5;
+    font-weight: bold;
+
+}
+.card-leave .details p{
+    font-size: 10.24px;
+}
+.card-leave .social-media {
+    height: 64px;
+    background-color: #161619;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    border-radius: 0 0 7px 7px;
+    bottom: 0;
+    box-shadow: 0px 1px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.card-leave .social-media i{
+    margin-left: 20px;
+}

@@ -1,0 +1,67 @@
+header {
+  height: 55px;
+  width: 100%;
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+body{
+  background-color: #ffffff;
+  min-height: 100%;
+  color: #2B283A;
+
+}
+header img {
+  width: 40px;
+  margin-right: 10px;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.container {
+  margin: 100px 40px;
+}
+.trav-card {
+  display: flex;
+  height: 168px;
+  width: 470px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px){
+  .trav-card{
+    max-width: 350px;
+  }
+}
+.trav-card .trav-img img {
+  height: 168px;
+  width: 125px;
+  margin-right: 20px;
+}
+.trav-card .trav-disc {
+  font-size: 10.24px;
+}
+.trav-disc h2 {
+  font-size: 25px;
+  margin: 10px 0 15px;
+}
+.trav-disc .date {
+  font-weight: bold;
+}
+.trav-disc p {
+  overflow: scroll;
+}
+.trav-disc .location .country {
+  margin: 10px;
+}
+.trav-disc .location img {
+  width: 10px;
+}
+.trav-disc .location .loc-map{
+  color: #918E9B;
+  text-decoration: underline;
+}
+
