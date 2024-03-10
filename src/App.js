@@ -19,12 +19,12 @@ function App() {
       {/* <InfoSite /> */}
       {/* <Card /> */}
       {/* <Airbnb /> */}
-      <TravelJourny />
+  {/*   <TravelJourny />  */}
       {/* <MemeGen /> */}
       {/* <Form /> */}
       {/* <FetchAPI/> */}
       {/* <CleanupEffect/> */}
-      {/* <Note /> */}
+      <Note />
       {/* <Tenzies/> */}
       {/* <Page /> */}
     </div>
