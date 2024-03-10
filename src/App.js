@@ -4,14 +4,14 @@ import "./App.css";
 // import InfoSite from './info-site/info-site';
 // import Card from './digital-business-card/card';
 
-import TravelJourny from './TravelJourny/MainPage';
+// import TravelJourny from './TravelJourny/MainPage';
 // import MemeGen from './Meme-Generator/MemeGen';
 // import Form from './Forms/Form';
 // import FetchAPI  from './DataFromAPI/GetData';
 // import CleanupEffect from './CleanupEffectFun/CleanupEffectFun';
 // import Page from './Page';
 
-// import Note from "./NoteApp/Note";
+import Note from "./NoteApp/Note";
 
 function App() {
   return (
